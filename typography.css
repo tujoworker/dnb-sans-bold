@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'DNB-Bold-20191118';
+  src: url('./fonts/DNB-Bold-20191118.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'DNB-Bold-20200131';
+  src: url('./fonts/DNB-Bold-20200131.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'DNB-Bold-20200227';
+  src: url('./fonts/DNB-Bold-20200227.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'DNB-Bold-20200303';
+  src: url('./fonts/DNB-Bold-20200303.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 1.125rem;/* 18px */
+  line-height: 1.75rem;/* 28px */
+
+  /* text-rendering: geometricPrecision; */
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.antialiased {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.antialiased,
+.subpixel-rendering {
+  padding: 2rem;
+  min-width: 16rem;
+}
+
+.dark .antialiased ,
+.dark .subpixel-rendering {
+  color: white;
+  background-color: #00343E;
+  /* background-color: #333; */
+}
+
+h2 {
+  color: #ddd;
+}
+.dark h2 {
+  color: #999;
+}
+
+.use-DNB-Bold-20191118 {
+  font-family: 'DNB-Bold-20191118';
+}
+.use-DNB-Bold-20200131 {
+  font-family: 'DNB-Bold-20200131';
+}
+.use-DNB-Bold-20200227 {
+  font-family: 'DNB-Bold-20200227';
+}
+.use-DNB-Bold-20200303 {
+  font-family: 'DNB-Bold-20200303';
+}
