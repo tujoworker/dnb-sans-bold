@@ -30,6 +30,14 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: 'DNB-Bold-20200309';
+  src: url('./fonts/DNB-Bold-20200309.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
 
 body {
 
@@ -83,4 +91,7 @@ h2 {
 }
 .use-DNB-Bold-20200303 {
   font-family: 'DNB-Bold-20200303';
+}
+.use-DNB-Bold-20200309 {
+  font-family: 'DNB-Bold-20200309';
 }
